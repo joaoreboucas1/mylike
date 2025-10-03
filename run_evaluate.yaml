@@ -1,0 +1,17 @@
+likelihood:
+  mylike:
+    mean: 1
+    stdev: 0.5
+    
+params:
+  x:
+    prior:
+      min: -5
+      max: 5
+    ref:
+      dist: norm
+      loc: 1
+      scale: 2
+
+sampler:
+  evaluate: null

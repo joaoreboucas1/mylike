@@ -1,0 +1,13 @@
+# Gaussian mixtures likelihood, normalized
+
+# Means and covmats
+mean:
+stdev:
+
+# Prefix of parameters names
+input_params_prefix: ""
+output_params_prefix: ""
+# Use derived standardized parameters for each component
+derived: False
+# Delay in likelihood evaluation
+delay: 0  # seconds
